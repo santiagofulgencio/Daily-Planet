@@ -57,10 +57,81 @@
 
         </main>
 
-        <aside></aside>
+        <aside>
+            <article>
+                <h2>Sección Publicitaria</h2>
+                <h3>Día del niño! Especial de regalos para chicos.</h3>
+                <div class="ads">
+                    <figure>
+                        <img src="./assets/Bat-signal.png" alt="bat-signal">
+                        <figcaption>Para el murcielaguito de la casa!</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="./assets/lasso.jpeg" alt="amazona">
+                        <figcaption>Sacá la amazona que hay en vos!</figcaption>
+                    </figure>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis ullam iste at? Iure delectus inventore placeat optio nihil facilis. Quaerat, sunt itaque sint similique ipsam velit corrupti! Facilis, molestiae! Totam.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis ullam iste at? Iure delectus inventore placeat optio nihil facilis. Quaerat, sunt itaque sint similique ipsam velit corrupti! Facilis, molestiae! Totam.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis ullam iste at? Iure delectus inventore placeat optio nihil facilis. Quaerat, sunt itaque sint similique ipsam velit corrupti! Facilis, molestiae! Totam.</p>
+            </article>
+            <img src="./assets/heroes.jpg" alt="">
+        </aside>
     </div>
 
-    <footer></footer>
+    <div class="suscribe">
+        <h2>Suscribite para recibir todas las noticias de Metropolis!</h2>
+        <form action="/" method="GET">
+            <h3>Datos de contacto:</h3>
+
+            <label class="userInfo">Tu nombre:
+                <input type="text" name="suscriberName" placeholder="Clark" required>
+            </label>
+
+            <label class="userInfo">Tu apellido:
+                <input type="text" name="suscriberLastName" placeholder="Kent" required>
+            </label>
+
+            <label class="userInfo">Tu email:
+                <input type="email" name="suscriberEmail" placeholder="notsuperman@dailyplanet.com" required>
+            </label>
+
+            <h3>Ciudad de Origen:</h3>
+            <select name="city">
+                <option class="cityText" value="metropolis">metropolis</option>
+                <option class="cityText" value="smallville">smallville</option>
+                <option class="cityText" value="gotham">gotham</option>
+                <option class="cityText" value="central">central</option>
+                <option class="cityText" value="fawcett">fawcett</option>
+                <option class="cityText" value="other">otra</option>
+            </select>
+
+            <h3>Tipo de suscripción deseada:</h3>
+            <label class="userType">
+                <input type="radio" name="suscriptionType" id="valor1" value="1">Basic
+            </label>
+            <label class="userType">
+                <input type="radio" name="suscriptionType" id="valor2" value="2">Advanced
+            </label>
+            <label class="userType">
+                <input type="radio" name="suscriptionType" id="valor3" value="3" checked>Premium
+            </label>
+
+            <p>Qué suscripción es para mi ?
+                <a href="./info.html">
+                <strong>Hacé click para más información</strong></a>
+            </p>
+
+            <button>Suscribirse!!</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>Daily planet no es propiedad registrada de superman &copy; Metrópolis 1932.</p>
+        <p>Hecho por Pam para
+            <a href="https://plataforma.nucba.io/c/1617-codingbootcamp" target="_blank">Nucba</a>
+        </p>
+    </footer>
 
 
 </body>
